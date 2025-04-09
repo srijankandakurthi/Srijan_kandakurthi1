@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Srijan | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Srijan</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hi, I'm Srijan</h1>
+        <p>A passionate Web Developer</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a freshman student learning web development and passionate about building creative and functional websites.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Task Tracker App</h3>
+            <p>A simple to-do app using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+            <h3>Weather App</h3>
+            <p>Uses weather API to fetch current weather info based on your location.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="userForm">
+            Name: <input type="text" id="name" required><br>
+            Email: <input type="email" id="email" required><br>
+            <button type="submit">Save</button>
+        </form>
+
+        <div id="savedInfo">
+            <!-- Saved contact info will appear here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Srijan | All Rights Reserved</p>
+    </footer>
+
+    <!-- ✅ Your script now loads at the end -->
+    <script src="script.js"></script>
+</body>
+
+</html>
